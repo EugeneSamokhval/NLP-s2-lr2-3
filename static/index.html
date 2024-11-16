@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="static/static/site_logotype.png">
+  <link rel="stylesheet" href="static/static/src/index.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="static/static/src/file-uploader.css">
+  <script src="static/static/src/pdf_script.js" async defer></script>
+  <script src="static/static/src/file-uploader.js" async defer></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1 id="pageTitle">Лабараторные работы 2-4</h1>
+  </header>
+  <main>
+    <div class="file-uploader">
+      <div class="uploader-header">
+        <h2 class="uploader-title">File Uploader</h2>
+        <h4 class="file-completed-status"></h4>
+      </div>
+      <ul class="file-list"></ul>
+      <div class="file-upload-box">
+        <h2 class="box-title">
+          <span class="file-instruction">Drag files here or</span>
+          <span class="file-browse-button">browse</span>
+        </h2>
+        <input class="file-browse-input" type="file" multiple hidden>
+      </div>
+    </div>
+    <div class="lr-result" id="lr2-results">
+      <h2 class="lr-title">Лабараторная работа 2</h2>
+      <ul id="lr2-result-list">
+
+      </ul>
+      <div id="lr2-pdf" class="print-to-pdf">
+        Pdf-отчёт
+      </div>
+    </div>
+    <div class="lr-result" id="lr3-results">
+      <h2 class="lr-title">Лабараторная работа 3</h2>
+      <ul id="lr3-result-list">
+
+      </ul>
+      <div id="lr3-pdf" class="print-to-pdf">
+        Pdf-отчёт
+      </div>
+    </div>
+    <div class="lr-result" id="lr4-results">
+      <h2 class="lr-title">Лабараторная работа 4</h2>
+      <ul id="lr4-result-list">
+
+      </ul>
+      <div class="print-to-pdf">
+        Pdf-отчёт
+      </div>
+
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js" defer></script>
+</body>
+
+</html>

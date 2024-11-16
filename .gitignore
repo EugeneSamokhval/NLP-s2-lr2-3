@@ -1,0 +1,7 @@
+.venv
+tempCodeRunnerFile.py
+test.py
+__pycache__
+logs
+results
+files
